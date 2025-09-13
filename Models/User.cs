@@ -9,5 +9,7 @@
         public string? Phone { get; set; }
 
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+
+        public ICollection<UserWrite> UserWrites { get; set; } = new List<UserWrite>();
     }
 }

@@ -16,6 +16,64 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Learn_Net.Controllers.UserWriteController",
+    "Method": "Submit",
+    "RelativePath": "api/user-write/submit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "Learn_Net.DTOs.SubmitWriteRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Learn_Net.Controllers.WriteController",
+    "Method": "CreateWrite",
+    "RelativePath": "api/write",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "Learn_Net.DTOs.CreateWriteRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Learn_Net.Controllers.WriteController",
+    "Method": "GetAllWrites",
+    "RelativePath": "api/write",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Learn_Net.Controllers.WriteController",
+    "Method": "GetWritesByUser",
+    "RelativePath": "api/write/user/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Learn_Net.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

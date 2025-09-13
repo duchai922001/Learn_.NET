@@ -144,3 +144,4 @@ C:\Users\Admin\source\repos\Learn_Net\Learn_Net\obj\Debug\net8.0\refint\Learn_Ne
 C:\Users\Admin\source\repos\Learn_Net\Learn_Net\obj\Debug\net8.0\Learn_Net.pdb
 C:\Users\Admin\source\repos\Learn_Net\Learn_Net\obj\Debug\net8.0\Learn_Net.genruntimeconfig.cache
 C:\Users\Admin\source\repos\Learn_Net\Learn_Net\obj\Debug\net8.0\ref\Learn_Net.dll
+C:\Users\Admin\source\repos\Learn_Net\Learn_Net\obj\Debug\net8.0\Learn_Net.sourcelink.json

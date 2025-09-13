@@ -18,7 +18,14 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 // 2. Đăng ký service cho User
 builder.Services.AddScoped<IUserRepository, UserRepository>();
-builder.Services.AddScoped<IUserService, UserService>(); // ✅ Thêm dòng này
+builder.Services.AddScoped<IUserService, UserService>();
+
+builder.Services.AddScoped<IWriteRepository, WriteRepository>();
+builder.Services.AddScoped<IWriteService, WriteService>();
+
+builder.Services.AddScoped<IUserWriteRepository, UserWriteRepository>();
+builder.Services.AddScoped<IUserWriteService, UserWriteService>();
+
 
 builder.Services.AddScoped<IJwtService, JwtService>();
 
