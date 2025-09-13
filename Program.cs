@@ -1,6 +1,6 @@
-﻿using Learn_Net.Data;
+﻿using Learn_Net.DAL.Data;
 using Learn_Net.Repositories;
-using Learn_Net.Services;             // ✅ Import namespace chứa IUserService, UserService
+using Learn_Net.Services;
 using Learn_Net.Utils;
 using Microsoft.EntityFrameworkCore;
 
